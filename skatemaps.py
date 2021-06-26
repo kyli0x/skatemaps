@@ -3,6 +3,7 @@ import io
 import requests
 import folium
 import pandas as pd
+import json
 from PyQt5.QtWidgets import QApplication, QWidget, QHBoxLayout, QVBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 
@@ -79,6 +80,12 @@ class MyApp(QWidget):
                 icon=folium.Icon(color="orange", icon="info-sign"),
                 tooltip=data.iloc[i]['name']
             ).add_to(m)
+
+
+        # reading json file data
+        skatepark_file = open('skateparks.json')
+        skatepark_data = json.load(skatepark_file)
+
 
         # save map data to data object
         data = io.BytesIO()
