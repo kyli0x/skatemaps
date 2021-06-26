@@ -12,8 +12,8 @@ class MyApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('SkateMap')
-        self.window_width, self.window_height = 1280, 1024
-        self.setMinimumSize(self.window_width, self.window_height)
+        #self.window_width, self.window_height = 1280, 1024
+        #self.setMinimumSize(self.window_width, self.window_height)
 
         layout = QVBoxLayout()
         self.setLayout(layout)
@@ -23,9 +23,7 @@ class MyApp(QWidget):
 
         # loading map & setting default start location
         m = folium.Map(
-            # tiles='Stamen Terrain',
-            tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-            attr='Esri', 
+            tiles='Stamen Terrain',
             control_scale=True,
             disable_3d=True,
             min_zoom=3,
@@ -34,9 +32,13 @@ class MyApp(QWidget):
             location=[33.98813901349684, -118.46677927707837] # venice, CA, Nine Club
         )
 
-        folium.TileLayer
+        folium.TileLayer(
+            tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+            attr='Esri',
+            name='Esri.WorldImagery'
+        ).add_to(m)
 
-
+        folium.LayerControl().add_to(m)
 
         # goes through each location and adds marker to map
         for i in range(0,len(data)):
