@@ -12,8 +12,6 @@ class MyApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('SkateMaps')
-        #self.window_width, self.window_height = 1280, 1024
-        #self.setMinimumSize(self.window_width, self.window_height)
 
         layout = QVBoxLayout()
         self.setLayout(layout)
@@ -32,7 +30,6 @@ class MyApp(QWidget):
             min_zoom=3,
             max_zoom=18,
             zoom_start=6,
-            location=[33.98813901349684, -118.46677927707837] # venice, CA, Nine Club
         )
 
         m.fit_bounds([[33.98813901349684, -118.46677927707837], [0, -1.0]])
@@ -59,12 +56,16 @@ class MyApp(QWidget):
         # add popup lat/lng when clicking on map
         m.add_child(folium.LatLngPopup())
 
-# goes through each location and adds marker to map
+        # global tooltip
+        tooltip = 'Click for more info'
+
+        # goes through each location and adds marker to map
         for i in range(0,len(data)):
             folium.Marker(
                 location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
                 popup=data.iloc[i]['name'],
                 icon=folium.Icon(color="orange", icon="info-sign"),
+                tooltip=data.iloc[i]['name']
             ).add_to(m)
 
         # save map data to data object
