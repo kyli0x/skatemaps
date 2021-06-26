@@ -25,23 +25,38 @@ class MyApp(QWidget):
         m = folium.Map(
             tiles='Stamen Terrain',
             control_scale=True,
+            prefer_canvas=True,
             disable_3d=True,
+            crs='EPSG3857',
+            max_bounds=True,
             min_zoom=3,
             max_zoom=18,
             zoom_start=6,
             location=[33.98813901349684, -118.46677927707837] # venice, CA, Nine Club
         )
 
-        folium.TileLayer(
+        m.fit_bounds([[33.98813901349684, -118.46677927707837], [0, -1.0]])
+
+        # add extra layers
+        folium.TileLayer( 
             tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
             attr='Esri',
-            name='Esri.WorldImagery'
+            name='Esri.WorldImagery',
+            control_scale=True,
+            prefer_canvas=True,
+            disable_3d=True,
+            crs='EPSG3857',
+            max_bounds=True,
+            min_zoom=3,
+            max_zoom=18
         ).add_to(m)
 
+        # set layer control settings
         folium.LayerControl(
             position='topright'
         ).add_to(m)
 
+        # add popup lat/lng when clicking on map
         m.add_child(folium.LatLngPopup())
 
 # goes through each location and adds marker to map
