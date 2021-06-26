@@ -38,9 +38,13 @@ class MyApp(QWidget):
             name='Esri.WorldImagery'
         ).add_to(m)
 
-        folium.LayerControl().add_to(m)
+        folium.LayerControl(
+            position='topright'
+        ).add_to(m)
 
-        # goes through each location and adds marker to map
+        m.add_child(folium.LatLngPopup())
+
+# goes through each location and adds marker to map
         for i in range(0,len(data)):
             folium.Marker(
                 location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
