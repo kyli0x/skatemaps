@@ -12,7 +12,7 @@ class MyApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('SkateMap')
-        self.window_width, self.window_height = 1600, 1200
+        self.window_width, self.window_height = 1280, 1024
         self.setMinimumSize(self.window_width, self.window_height)
 
         layout = QVBoxLayout()
@@ -25,9 +25,13 @@ class MyApp(QWidget):
         m = folium.Map(
             # tiles='Stamen Terrain',
             tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-            attr='Esri',
+            attr='Esri', 
+            control_scale=True,
+            disable_3d=True,
+            min_zoom=3,
+            max_zoom=18,
             zoom_start=6,
-            location=[33.98813901349684, -118.46677927707837] # venice, CA
+            location=[33.98813901349684, -118.46677927707837] # venice, CA, Nine Club
         )
 
         folium.TileLayer
