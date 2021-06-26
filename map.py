@@ -11,7 +11,7 @@ from PyQt5.QtWebEngineWidgets import QWebEngineView
 class MyApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('SkateMap')
+        self.setWindowTitle('SkateMaps')
         #self.window_width, self.window_height = 1280, 1024
         #self.setMinimumSize(self.window_width, self.window_height)
 
@@ -76,4 +76,4 @@ if __name__ == '__main__':
     try:
         sys.exit(app.exec_())
     except SystemExit:
-        print('Closing Program..')
+        print('Closing SkateMaps..')
