@@ -16,9 +16,6 @@ class MyApp(QWidget):
         layout = QVBoxLayout()
         self.setLayout(layout)
 
-        # reading city data
-        data = pd.read_csv('cities.csv', usecols=['name', 'lon', 'lat'])
-
         # loading map & setting default start location
         m = folium.Map(
             tiles='Stamen Terrain',
@@ -32,6 +29,7 @@ class MyApp(QWidget):
             zoom_start=6,
         )
 
+        # set bounderies of map panning
         m.fit_bounds([[33.98813901349684, -118.46677927707837], [0, -1.0]])
 
         # add extra layers
@@ -48,7 +46,7 @@ class MyApp(QWidget):
             max_zoom=18
         ).add_to(m)
 
-        # set layer control settings
+        # layer control settings
         folium.LayerControl(
             position='topright'
         ).add_to(m)
@@ -58,6 +56,20 @@ class MyApp(QWidget):
 
         # global tooltip
         tooltip = 'Click for more info'
+
+        # customer marker icons
+        logoIcon = folium.features.CustomIcon('logo.png', icon_size=(30, 30))
+
+        # default markers
+        popup9club = 'The Nine Club<br>313 Grand Blvd<br>PO Box 225<br>Venice, CA 90294<br>https://www.thenineclub.com'
+        folium.Marker([33.988502832268956, -118.4693287776317],
+                      popup=popup9club, parse_html=True,
+                      tooltip='The Nine Club',
+                      icon=logoIcon
+                      ).add_to(m)
+
+        # reading csv file data
+        data = pd.read_csv('cities.csv', usecols=['name', 'lon', 'lat'])
 
         # goes through each location and adds marker to map
         for i in range(0,len(data)):
