@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 import io
 import requests
@@ -59,7 +60,8 @@ class MyApp(QWidget):
         tooltip = 'Click for more info'
 
         # customer marker icons
-        logoIcon = folium.features.CustomIcon('logo.png', icon_size=(30, 30))
+        imgurl = 'https://raw.githubusercontent.com/kyli0x/skatemaps/main/logo.png'
+        logoIcon = folium.features.CustomIcon(imgurl, icon_size=(30, 30)) 
 
         # default markers
         popup9club = 'The Nine Club<br>313 Grand Blvd<br>PO Box 225<br>Venice, CA 90294<br>https://www.thenineclub.com'
@@ -80,12 +82,6 @@ class MyApp(QWidget):
                 icon=folium.Icon(color="orange", icon="info-sign"),
                 tooltip=data.iloc[i]['name']
             ).add_to(m)
-
-
-        # reading json file data
-        skatepark_file = open('skateparks.json')
-        skatepark_data = json.load(skatepark_file)
-
 
         # save map data to data object
         data = io.BytesIO()
