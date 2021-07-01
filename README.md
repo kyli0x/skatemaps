@@ -11,7 +11,7 @@ Then just post your city in
 ```
 
 <p align="center">
-  <img src="https://github.com/kyli0x/skatemaps/blob/main/skatemaps001.png">
+  <img src="https://github.com/kyli0x/skatemaps/blob/main/skatemaps002.png">
 </p>
 
 ### More features to come.
