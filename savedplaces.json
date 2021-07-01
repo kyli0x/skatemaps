@@ -1,0 +1,936 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "geometry" : {
+      "coordinates" : [ 2.1645810, 41.3857080 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=14915526409741886892",
+      "Location" : {
+        "Address" : "08007 Barcelona, Spain",
+        "Business Name" : "Universitat",
+        "Country Code" : "ES",
+        "Geo Coordinates" : {
+          "Latitude" : "41.3857080",
+          "Longitude" : "2.1645810"
+        }
+      },
+      "Published" : "2021-06-27T02:44:43Z",
+      "Title" : "Universitat",
+      "Updated" : "2021-06-27T02:44:43Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 2.1668668, 41.3831913 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=10303436591165373226",
+      "Location" : {
+        "Address" : "Plaça dels Àngels, 1, 08001 Barcelona, Spain",
+        "Business Name" : "Barcelona Museum of Contemporary Art",
+        "Country Code" : "ES",
+        "Geo Coordinates" : {
+          "Latitude" : "41.3831913",
+          "Longitude" : "2.1668668"
+        }
+      },
+      "Published" : "2021-06-27T02:42:50Z",
+      "Title" : "Barcelona Museum of Contemporary Art",
+      "Updated" : "2021-06-27T02:42:50Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 2.1698211, 41.3856087 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=La+Rambla,+Barcelona,+Spain&ftid=0x12a4a258081714c9:0x24bef7ac8842bdc4",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "41.3856087",
+          "Longitude" : "2.1698211"
+        }
+      },
+      "Published" : "2021-06-27T02:42:44Z",
+      "Title" : "La Rambla, Barcelona, Spain",
+      "Updated" : "2021-06-27T02:42:44Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -117.9368390, 33.8151042 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=17509918209095132964",
+      "Location" : {
+        "Address" : "1595 W Palais Rd, Anaheim, CA 92802, United States",
+        "Business Name" : "Anaheim Stanton Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.8151042",
+          "Longitude" : "-117.9368390"
+        }
+      },
+      "Published" : "2021-06-27T02:42:17Z",
+      "Title" : "Anaheim Stanton Skatepark",
+      "Updated" : "2021-06-27T02:42:17Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -117.9520839, 34.0285231 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=17674594498146905328",
+      "Location" : {
+        "Address" : "15600 Temple Ave, La Puente, CA 91744, United States",
+        "Business Name" : "La Puente Skateboard 🛹 Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.0285231",
+          "Longitude" : "-117.9520839"
+        }
+      },
+      "Published" : "2021-06-27T02:42:11Z",
+      "Title" : "La Puente Skateboard 🛹 Park",
+      "Updated" : "2021-06-27T02:42:11Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -117.9983603, 33.7350329 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=17335698390868620922",
+      "Location" : {
+        "Address" : "7471 Center Ave, Huntington Beach, CA 92647, United States",
+        "Business Name" : "Vans Off The Wall Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.7350329",
+          "Longitude" : "-117.9983603"
+        }
+      },
+      "Published" : "2021-06-27T02:42:03Z",
+      "Title" : "Vans Off The Wall Skatepark",
+      "Updated" : "2021-06-27T02:42:03Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -117.9376369, 33.8147148 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=9391211015023959829",
+      "Location" : {
+        "Address" : "1595 W Palais Rd, Anaheim, CA 92802, United States",
+        "Business Name" : "Palm Lane Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.8147148",
+          "Longitude" : "-117.9376369"
+        }
+      },
+      "Published" : "2021-06-27T02:41:58Z",
+      "Title" : "Palm Lane Park",
+      "Updated" : "2021-06-27T02:41:58Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2142397, 33.8142306 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=5404797248698418312",
+      "Location" : {
+        "Address" : "W 31st St, Long Beach, CA 90810, United States",
+        "Business Name" : "Silverado Skate Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.8142306",
+          "Longitude" : "-118.2142397"
+        }
+      },
+      "Published" : "2021-06-27T02:41:52Z",
+      "Title" : "Silverado Skate Park",
+      "Updated" : "2021-06-27T02:41:52Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2957659, 33.8763491 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=4965788391331639692",
+      "Location" : {
+        "Address" : "1235 W 170th St, Gardena, CA 90247, United States",
+        "Business Name" : "Marc Johnson Skate Plaza",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.8763491",
+          "Longitude" : "-118.2957659"
+        }
+      },
+      "Published" : "2021-06-27T02:41:48Z",
+      "Title" : "Marc Johnson Skate Plaza",
+      "Updated" : "2021-06-27T02:41:48Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.3161952, 33.9114561 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=8928516710616498950",
+      "Location" : {
+        "Address" : "13220 Van Ness Ave, Gardena, CA 90249, United States",
+        "Business Name" : "Rowley Park Skate Plaza",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.9114561",
+          "Longitude" : "-118.3161952"
+        }
+      },
+      "Published" : "2021-06-27T02:41:45Z",
+      "Title" : "Rowley Park Skate Plaza",
+      "Updated" : "2021-06-27T02:41:45Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.3021301, 33.9839466 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=12098165020104731997",
+      "Location" : {
+        "Address" : "1452 W 61st St, Los Angeles, CA 90047, United States",
+        "Business Name" : "Jackie Tatum Skate Plaza",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.9839466",
+          "Longitude" : "-118.3021301"
+        }
+      },
+      "Published" : "2021-06-27T02:41:39Z",
+      "Title" : "Jackie Tatum Skate Plaza",
+      "Updated" : "2021-06-27T02:41:39Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.4146412, 33.9592304 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=7104652731070249912",
+      "Location" : {
+        "Address" : "7200 W Manchester Ave, Los Angeles, CA 90045, United States",
+        "Business Name" : "Westchester Skatepark.",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.9592304",
+          "Longitude" : "-118.4146412"
+        }
+      },
+      "Published" : "2021-06-27T02:41:35Z",
+      "Title" : "Westchester Skatepark.",
+      "Updated" : "2021-06-27T02:41:35Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.4755252, 33.9870600 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=7160476964159594494",
+      "Location" : {
+        "Address" : "1800 Ocean Front Walk, Venice, CA 90291, United States",
+        "Business Name" : "Venice Beach Skatepark.",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.9870600",
+          "Longitude" : "-118.4755252"
+        }
+      },
+      "Published" : "2021-06-27T02:41:31Z",
+      "Title" : "Venice Beach Skatepark.",
+      "Updated" : "2021-06-27T02:41:31Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.4539780, 34.0381251 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=7350996703925457619",
+      "Location" : {
+        "Address" : "1835 Stoner Ave, Los Angeles, CA 90025, United States",
+        "Business Name" : "Stoner Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.0381251",
+          "Longitude" : "-118.4539780"
+        }
+      },
+      "Published" : "2021-06-27T02:41:25Z",
+      "Title" : "Stoner Park",
+      "Updated" : "2021-06-27T02:41:25Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.4493493, 34.0451087 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=Sawtelle,+Los+Angeles,+CA+90025&ftid=0x80c2bb7048ae3be5:0xe93ef02a5ed88d89",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "34.0451087",
+          "Longitude" : "-118.4493493"
+        }
+      },
+      "Published" : "2021-06-27T02:41:20Z",
+      "Title" : "Sawtelle, Los Angeles, CA 90025",
+      "Updated" : "2021-06-27T02:41:20Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.3075015, 34.0605603 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=Radio+Korea+Ledges,+S+Oxford+Ave,+Los+Angeles,+CA+90010&ftid=0x80c2b884e58e986d:0x5ffef66e137b6259",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "34.0605603",
+          "Longitude" : "-118.3075015"
+        }
+      },
+      "Published" : "2021-06-27T02:41:16Z",
+      "Title" : "Radio Korea Ledges, S Oxford Ave, Los Angeles, CA 90010",
+      "Updated" : "2021-06-27T02:41:16Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2020111, 34.0595436 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=2042717152189724285",
+      "Location" : {
+        "Address" : "2230 Norfolk St, Los Angeles, CA 90033, United States",
+        "Business Name" : "Hazard Recreation Center",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.0595436",
+          "Longitude" : "-118.2020111"
+        }
+      },
+      "Published" : "2021-06-27T02:41:12Z",
+      "Title" : "Hazard Recreation Center",
+      "Updated" : "2021-06-27T02:41:12Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2580895, 34.0769262 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=13052424971142363522",
+      "Location" : {
+        "Address" : "1620 Sunset Blvd, Los Angeles, CA 90026, United States",
+        "Business Name" : "Honey Hi",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.0769262",
+          "Longitude" : "-118.2580895"
+        }
+      },
+      "Published" : "2021-06-27T02:41:05Z",
+      "Title" : "Honey Hi",
+      "Updated" : "2021-06-27T02:41:05Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.1820506, 34.0764366 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=7182449123043631546",
+      "Location" : {
+        "Address" : "Klamath St, Los Angeles, CA 90032, United States",
+        "Business Name" : "El Sereno Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.0764366",
+          "Longitude" : "-118.1820506"
+        }
+      },
+      "Published" : "2021-06-27T02:40:59Z",
+      "Title" : "El Sereno Skatepark",
+      "Updated" : "2021-06-27T02:40:59Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2465530, 34.1066459 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=1049620935501374891",
+      "Location" : {
+        "Address" : "2999 Rosanna St, Los Angeles, CA 90039, United States",
+        "Business Name" : "Marsh Skate Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.1066459",
+          "Longitude" : "-118.2465530"
+        }
+      },
+      "Published" : "2021-06-27T02:40:55Z",
+      "Title" : "Marsh Skate Park",
+      "Updated" : "2021-06-27T02:40:55Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2666771, 34.1338738 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=16252432987669521345",
+      "Location" : {
+        "Address" : "Los Angeles, CA 90039, United States",
+        "Business Name" : "Chevy Chase Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.1338738",
+          "Longitude" : "-118.2666771"
+        }
+      },
+      "Published" : "2021-06-27T02:40:44Z",
+      "Title" : "Chevy Chase Park",
+      "Updated" : "2021-06-27T02:40:44Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.5045983, 34.1887959 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=8033529935178304635",
+      "Location" : {
+        "Address" : "17000 Haynes St, Van Nuys, CA 91406, United States",
+        "Business Name" : "Birmingham Community High School",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.1887959",
+          "Longitude" : "-118.5045983"
+        }
+      },
+      "Published" : "2021-06-27T02:40:39Z",
+      "Title" : "Birmingham Community High School",
+      "Updated" : "2021-06-27T02:40:39Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.7988891, 34.1585083 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=7774022117355034025",
+      "Location" : {
+        "Address" : "31107 Thousand Oaks Blvd, Westlake Village, CA 91362, United States",
+        "Business Name" : "Westlake Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.1585083",
+          "Longitude" : "-118.7988891"
+        }
+      },
+      "Published" : "2021-06-27T02:40:35Z",
+      "Title" : "Westlake Skatepark",
+      "Updated" : "2021-06-27T02:40:35Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -117.2825192, 33.0340906 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=6453330331004610097",
+      "Location" : {
+        "Address" : "429 Santa Fe Dr, Encinitas, CA 92024, United States",
+        "Business Name" : "Encinitas Skate Park, (Poods)",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "33.0340906",
+          "Longitude" : "-117.2825192"
+        }
+      },
+      "Published" : "2021-06-27T02:40:25Z",
+      "Title" : "Encinitas Skate Park, (Poods)",
+      "Updated" : "2021-06-27T02:40:25Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -117.1572653, 32.7118035 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=3551440032359446444",
+      "Location" : {
+        "Address" : "615 Eighth Ave, San Diego, CA 92101, United States",
+        "Business Name" : "Lucky D's Hostel San Diego",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "32.7118035",
+          "Longitude" : "-117.1572653"
+        }
+      },
+      "Published" : "2021-06-27T02:40:20Z",
+      "Title" : "Lucky D's Hostel San Diego",
+      "Updated" : "2021-06-27T02:40:20Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -117.3085134, 34.5071824 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=14872136769780661230",
+      "Location" : {
+        "Address" : "16451 Pebble Beach Dr, Victorville, CA 92395, United States",
+        "Business Name" : "Doris Davies Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.5071824",
+          "Longitude" : "-117.3085134"
+        }
+      },
+      "Published" : "2021-06-27T02:40:04Z",
+      "Title" : "Doris Davies Park",
+      "Updated" : "2021-06-27T02:40:04Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -77.3682301, 40.9013000 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=17270090799515206783",
+      "Location" : {
+        "Address" : "134 Sports Camp Dr, Woodward, PA 16882, United States",
+        "Business Name" : "Woodward",
+        "Geo Coordinates" : {
+          "Latitude" : "40.9013000",
+          "Longitude" : "-77.3682301"
+        }
+      },
+      "Published" : "2021-06-27T02:39:35Z",
+      "Title" : "Woodward",
+      "Updated" : "2021-06-27T02:39:35Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -76.8475128, 40.2398825 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=836543990876728689",
+      "Location" : {
+        "Address" : "642 3rd Alley, Steelton, PA 17113, United States",
+        "Business Name" : "Steelton Skate Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "40.2398825",
+          "Longitude" : "-76.8475128"
+        }
+      },
+      "Published" : "2021-06-27T02:35:57Z",
+      "Title" : "Steelton Skate Park",
+      "Updated" : "2021-06-27T02:35:57Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -80.6720962, 28.0588779 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=16826352780783662965",
+      "Location" : {
+        "Address" : "West Melbourne, FL 32904, United States",
+        "Business Name" : "West Melbourne Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.0588779",
+          "Longitude" : "-80.6720962"
+        }
+      },
+      "Published" : "2021-06-27T02:35:13Z",
+      "Title" : "West Melbourne Skatepark",
+      "Updated" : "2021-06-27T02:35:13Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -82.6496607, 27.7646586 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=6482495535405124265",
+      "Location" : {
+        "Address" : "600 12th St S, St. Petersburg, FL 33705, United States",
+        "Business Name" : "St. Pete Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "27.7646586",
+          "Longitude" : "-82.6496607"
+        }
+      },
+      "Published" : "2021-06-27T02:35:06Z",
+      "Title" : "St. Pete Skatepark",
+      "Updated" : "2021-06-27T02:35:06Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -82.3180384, 27.8952064 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=12080010215772845887",
+      "Location" : {
+        "Address" : "5720 Providence Rd, Riverview, FL 33578, United States",
+        "Business Name" : "Providence Skate Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "27.8952064",
+          "Longitude" : "-82.3180384"
+        }
+      },
+      "Published" : "2021-06-27T02:35:01Z",
+      "Title" : "Providence Skate Park",
+      "Updated" : "2021-06-27T02:35:01Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -82.4104763, 27.9661120 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=9711740223762644552",
+      "Location" : {
+        "Address" : "4215 E Columbus Dr, Tampa, FL 33605, United States",
+        "Business Name" : "Skatepark of Tampa",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "27.9661120",
+          "Longitude" : "-82.4104763"
+        }
+      },
+      "Published" : "2021-06-27T02:34:57Z",
+      "Title" : "Skatepark of Tampa",
+      "Updated" : "2021-06-27T02:34:57Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.7311050, 28.0306489 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=9839796214148508713",
+      "Location" : {
+        "Address" : "Winter Haven, FL 33881, United States",
+        "Business Name" : "Winter Haven Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.0306489",
+          "Longitude" : "-81.7311050"
+        }
+      },
+      "Published" : "2021-06-27T02:34:52Z",
+      "Title" : "Winter Haven Skatepark",
+      "Updated" : "2021-06-27T02:34:52Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -82.1709326, 28.2234576 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=4633971020729616799",
+      "Location" : {
+        "Address" : "20th St &, Alston Ave, Zephyrhills, FL 33542, United States",
+        "Business Name" : "Zephyrhills Skatepark",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.2234576",
+          "Longitude" : "-82.1709326"
+        }
+      },
+      "Published" : "2021-06-27T02:34:48Z",
+      "Title" : "Zephyrhills Skatepark",
+      "Updated" : "2021-06-27T02:34:48Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.2965028, 28.5454687 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=1501609231968941595",
+      "Location" : {
+        "Address" : "Azalea Park, FL 32807, United States",
+        "Business Name" : "azalea skate parking lot",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.5454687",
+          "Longitude" : "-81.2965028"
+        }
+      },
+      "Published" : "2021-06-27T02:34:38Z",
+      "Title" : "azalea skate parking lot",
+      "Updated" : "2021-06-27T02:34:38Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.4387950, 28.5073742 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=12740582109641777114",
+      "Location" : {
+        "Address" : "4624 L B McLeod Rd, Orlando, FL 32811, United States",
+        "Business Name" : "Metro Skateboard Academy",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.5073742",
+          "Longitude" : "-81.4387950"
+        }
+      },
+      "Published" : "2021-06-27T02:34:27Z",
+      "Title" : "Metro Skateboard Academy",
+      "Updated" : "2021-06-27T02:34:27Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.3370871, 28.7101808 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=12310895493219942312",
+      "Location" : {
+        "Address" : "599 Longdale Ave, Longwood, FL 32750, United States",
+        "Business Name" : "Candyland Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.7101808",
+          "Longitude" : "-81.3370871"
+        }
+      },
+      "Published" : "2021-06-27T02:34:23Z",
+      "Title" : "Candyland Park",
+      "Updated" : "2021-06-27T02:34:23Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.1771559, 28.6456733 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=14053963742729430950",
+      "Location" : {
+        "Address" : "1600 Lockwood Blvd, Oviedo, FL 32765, United States",
+        "Business Name" : "Riverside Skate Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.6456733",
+          "Longitude" : "-81.1771559"
+        }
+      },
+      "Published" : "2021-06-27T02:34:20Z",
+      "Title" : "Riverside Skate Park",
+      "Updated" : "2021-06-27T02:34:20Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.7431439, 28.5729073 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=14929602484427000433",
+      "Location" : {
+        "Address" : "Minneola, FL 34715, United States",
+        "Business Name" : "Skate Park of Minnneola",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.5729073",
+          "Longitude" : "-81.7431439"
+        }
+      },
+      "Published" : "2021-06-27T02:34:16Z",
+      "Title" : "Skate Park of Minnneola",
+      "Updated" : "2021-06-27T02:34:16Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -80.1999998, 25.7758767 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=16611850223147446791",
+      "Location" : {
+        "Address" : "NW 1st St &, NW 3rd Ave, Miami, FL 33128, United States",
+        "Business Name" : "Lot 11 Skate Park",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "25.7758767",
+          "Longitude" : "-80.1999998"
+        }
+      },
+      "Published" : "2021-06-27T02:33:14Z",
+      "Title" : "Lot 11 Skate Park",
+      "Updated" : "2021-06-27T02:33:14Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.3729300, 28.5703100 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=17830578796449419607",
+      "Location" : {
+        "Address" : "2020 N Orange Ave, Orlando, FL 32804, United States",
+        "Business Name" : "Galactic G Skateshop",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.5703100",
+          "Longitude" : "-81.3729300"
+        }
+      },
+      "Published" : "2021-04-21T20:19:01Z",
+      "Title" : "Galactic G Skateshop",
+      "Updated" : "2021-04-21T20:19:01Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -81.3584965, 28.5529180 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=13806282486717373258",
+      "Location" : {
+        "Address" : "1646 E Colonial Dr #4804, Orlando, FL 32803, United States",
+        "Business Name" : "Plus Skateshop Orlando",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "28.5529180",
+          "Longitude" : "-81.3584965"
+        }
+      },
+      "Published" : "2021-04-21T20:18:50Z",
+      "Title" : "Plus Skateshop Orlando",
+      "Updated" : "2021-04-21T20:18:50Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2913860, 34.1027836 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=7473472776356222010",
+      "Location" : {
+        "Address" : "4651 Kingswell Ave, Los Angeles, CA 90027, United States",
+        "Business Name" : "KINGSWELL",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.1027836",
+          "Longitude" : "-118.2913860"
+        }
+      },
+      "Published" : "2021-04-21T20:13:48Z",
+      "Title" : "KINGSWELL",
+      "Updated" : "2021-04-21T20:13:48Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -118.2870946, 34.0958456 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=8371772996660047937",
+      "Location" : {
+        "Address" : "4501 Fountain Ave, Los Angeles, CA 90029, United States",
+        "Business Name" : "Boo’s Philly Cheesesteaks - Silverlake",
+        "Country Code" : "US",
+        "Geo Coordinates" : {
+          "Latitude" : "34.0958456",
+          "Longitude" : "-118.2870946"
+        }
+      },
+      "Published" : "2016-04-21T01:58:50Z",
+      "Title" : "Boo's Philly Cheesesteaks Silverlake",
+      "Updated" : "2016-04-21T01:58:50Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -97.0728070, 33.0717530 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=awdtuning+%4033.071753,-97.072807",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "33.0717530",
+          "Longitude" : "-97.0728070"
+        }
+      },
+      "Published" : "2013-07-11T23:05:45Z",
+      "Title" : "awdtuning",
+      "Updated" : "2013-07-11T23:05:45Z"
+    },
+    "type" : "Feature"
+  } ]
+}

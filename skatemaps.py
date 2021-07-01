@@ -71,10 +71,20 @@ class MyApp(QWidget):
                       icon=logoIcon
                       ).add_to(m)
 
+        savedplaces = pd.read_csv('savedplaces.csv', usecols=['lat', 'lon', 'Address', 'PlaceName'])
+
+        for i in range(0,len(savedplaces)):
+            folium.Marker(
+                location=[savedplaces.iloc[i]['lat'], savedplaces.iloc[i]['lon']],
+                popup=savedplaces.iloc[i]['Address'],
+                icon=folium.Icon(color='blue', icon='info-sign'),
+                tooltip=savedplaces.iloc[i]['PlaceName']
+            ).add_to(m)
+
+
         # reading csv file data
         data = pd.read_csv('cities.csv', usecols=['name', 'lon', 'lat'])
 
-        # goes through each location and adds marker to map
         for i in range(0,len(data)):
             folium.Marker(
                 location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
