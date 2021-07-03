@@ -2,9 +2,10 @@
 import sys
 import io
 import requests
-import folium
-import pandas as pd
 import json
+import folium
+from folium import plugins
+import pandas as pd
 from PyQt5.QtWidgets import QApplication, QWidget, QHBoxLayout, QVBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 
@@ -31,10 +32,18 @@ class MyApp(QWidget):
             zoom_start=6,
         )
 
+        # fullscreen
+        #folium.plugins.Fullscreen(
+        #    postion='topleft',
+        #    title='fullscreen',
+        #    title_cancel='exit',
+        #    force_separate_button=True,
+        #).add_to(m)
+
         # set bounderies of map panning
         m.fit_bounds([[33.98813901349684, -118.46677927707837], [0, -1.0]])
 
-        # add extra layers
+        # add extra layers - satellite view
         folium.TileLayer( 
             tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
             attr='Esri',
@@ -50,7 +59,8 @@ class MyApp(QWidget):
 
         # layer control settings
         folium.LayerControl(
-            position='topright'
+            position='topright',
+            collapsed=True
         ).add_to(m)
 
         # add popup lat/lng when clicking on map
@@ -71,8 +81,10 @@ class MyApp(QWidget):
                       icon=logoIcon
                       ).add_to(m)
 
+        # read saved places data
         savedplaces = pd.read_csv('savedplaces.csv', usecols=['lat', 'lon', 'Address', 'PlaceName'])
 
+        # add a marker for each saved place
         for i in range(0,len(savedplaces)):
             folium.Marker(
                 location=[savedplaces.iloc[i]['lat'], savedplaces.iloc[i]['lon']],
@@ -92,6 +104,7 @@ class MyApp(QWidget):
                 icon=folium.Icon(color="orange", icon="info-sign"),
                 tooltip=data.iloc[i]['name']
             ).add_to(m)
+
 
         # save map data to data object
         data = io.BytesIO()
