@@ -8,7 +8,7 @@ git clone https://github.com/kyli0x/skatemaps.git
 
 ## Come join The Nine Club discord and add your location!
 ```
-https://discord.com/invite/z77cTk8Xxc
+https://discord.gg/thenineclub
 ```
 Then just post your city in: 
 ```
