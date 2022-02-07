@@ -22,6 +22,7 @@ class MyApp(QWidget):
         # loading map & setting default start location
         m = folium.Map(
             tiles='Stamen Terrain',
+            show=True,
             control_scale=True,
             prefer_canvas=True,
             disable_3d=True,
@@ -69,7 +70,7 @@ class MyApp(QWidget):
         # global tooltip
         tooltip = 'Click for more info'
 
-        # customer marker icons
+        # custom marker icons
         imgurl = 'https://raw.githubusercontent.com/kyli0x/skatemaps/main/logo.png'
         logoIcon = folium.features.CustomIcon(imgurl, icon_size=(30, 30)) 
 
